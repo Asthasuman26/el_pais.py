@@ -9,12 +9,12 @@ import os
 import time
 
 # BrowserStack credentials
-username = os.getenv('asthasuman_yjSCG8')  # Use environment variables for security
+username = os.getenv('asthasuman_yjSCG8')
 access_key = os.getenv('qQ2wQgL7UcYoyvq7yqnE')
 
 # Define desired capabilities for BrowserStack
 desired_capabilities = {
-    'browser': 'Chrome',  # You can change this to 'Firefox', 'Edge', etc.
+    'browser': 'Chrome',  
     'browser_version': 'latest',
     'os': 'Windows',
     'os_version': '10',
